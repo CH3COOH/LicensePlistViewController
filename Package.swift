@@ -22,8 +22,7 @@ let package = Package(
         .target(
             name: "LicensePlistViewController",
             path: "LicensePlistViewController",
-            exclude: ["Info.plist"],
-            resources: [.copy("PrivacyInfo.xcprivacy")]
+            exclude: ["Info.plist"]
         ),
     ]
 )
